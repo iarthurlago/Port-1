@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Eu sou Ivan Arthur",
+    "subtitle": "17 anos | Dev",
+    "role": "Estudante de Programação",
+    "description": "A seguir uma seleção dos meus projetos pessoais, desenvolvidos com dedicação e empenho. Espero que ache-os valiosos e bem-feitos.",
+    "contactBtn": "Meu Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Minha Introdução",
+    "p1": "Estou estudando Engenharia de Software na Uninter, além de cursos como JovemTech.",
+    "p2": "Atualmente participo do programa Jovem Tech, oferecido pela Inovase, com foco em módulos de TI e empreendedorismo, com certificação de Programador Júnior.",
+    "p3": "Tenho vontade de aplicar e expandir meus conhecimentos nesta área em constante evolução, com ênfase em desenvolvimento web e análise de sistemas."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Meu nível técnico",
+    "webDev": "Desenvolvedor Web",
+    "dataAnalyst": "Analista de Dados",
+    "systemsModeling": "Modelagem de Sistemas",
+    "languages": "Linguagens"
+  ,
+    "technicalTitle": "Habilidades Técnicas",
+    "qualificationsTitle": "Qualificações & Cursos"
+  },
+  "projects": {
+    "title": "Projetos",
+    "calculatorTitle": "Calculadora",
+    "calculatorDesc": "Calculadora estilizada em CSS construída com JavaScript e estruturada em HTML.",
+    "newProjectsTitle": "Novos Projetos em Desenvolvimento",
+    "newProjectsDesc": "Atualmente focado na criação de ferramentas inteligentes e interfaces modernas. Em breve, este espaço estará cheio dos resultados do muito trabalho e código."
+  },
+  "qualifications": {
+    "title": "Qualificações",
+    "subtitle": "Minha jornada pessoal",
+    "education": "Educação",
+    "techDegree": "Técnico em Desenvolvimento de Sistemas + Ensino Médio",
+    "techStatus": "SESI-SENAI - Concluído",
+    "jovemTech": "Programa Jovem Tech",
+    "jovemTechStatus": "Inovase - Em andamento",
+    "noticeLink": "Aviso"
+  },
+  "contact": {
+    "title": "Contate-me",
+    "subtitle": "Entre em contato para oportunidades",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "linkedinLabel": "LinkedIn",
+    "sendMsg": "Enviar mensagem",
+    "connect": "Conectar",
+    "form": {
+      "namePlaceholder": "Seu nome",
+      "emailPlaceholder": "Seu email",
+      "subjectPlaceholder": "Assunto",
+      "msgPlaceholder": "Sua mensagem",
+      "submitBtn": "Enviar Mensagem"
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Ivan Arthur. Todos os direitos reservados."
+  }
+  ,
+  "nav": {
+    "home": "Início",
+    "skills": "Habilidades & Qualificações",
+    "projects": "Projetos",
+    "contact": "Contato"
+  }
+}

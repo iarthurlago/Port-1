@@ -1,30 +1,33 @@
-import profileImage from '../assets/hero.png';
+import profileImage from '../assets/Codando.png';
+import instagramIcon from '../assets/instagram.png';
+import whatsappIcon from '../assets/whatsapp.png';
+import { useTranslation } from 'react-i18next';
 
 const socialLinks = [
   {
     href: 'https://www.instagram.com/iarthurlago/?next=%2F',
-    icon: 'fab fa-instagram',
+    icon: instagramIcon,
     label: 'Instagram',
   },
   {
     href: 'https://wa.link/dpscdw',
-    icon: 'fab fa-whatsapp',
+    icon: whatsappIcon,
     label: 'WhatsApp',
   },
 ];
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <header id="hero" className="hero">
       <div className="container hero-grid">
         <div className="hero-content">
-          <h1>Eu sou Ivan Arthur</h1>
-          <p className="hero-age">17 anos | Dev</p>
-          <h2>Estudante de Programação</h2>
+          <h1>{t('hero.title')}</h1>
+          <p className="hero-age">{t('hero.subtitle')}</p>
+          <h2>{t('hero.role')}</h2>
 
-          <p className="hero-text">
-            Apresento a seguir uma seleção dos meus projetos pessoais, desenvolvidos com dedicação e empenho.
-          </p>
+          <p className="hero-text">{t('hero.description')}</p>
 
           <div className="social-links">
             {socialLinks.map((link) => (
@@ -36,10 +39,10 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 aria-label={link.label}
               >
-                <i className={link.icon}></i>
+                <img src={link.icon} alt={link.label} className="social-icon" />
               </a>
             ))}
-            <a href="#contact" className="btn-primary">Meu Contato</a>
+            <a href="#contact" className="btn-primary">{t('hero.contactBtn')}</a>
           </div>
         </div>
 

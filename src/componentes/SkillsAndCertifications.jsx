@@ -1,53 +1,57 @@
-const skillGroups = [
-  {
-    title: 'Desenvolvimento Web',
-    items: [
-      { name: 'HTML', level: 90 },
-      { name: 'CSS', level: 70 },
-      { name: 'JavaScript', level: 70 },
-    ],
-  },
-  {
-    title: 'Banco de Dados & Dados',
-    items: [
-      { name: 'SQL', level: 75 },
-      { name: 'Modelagem de Sistemas', level: 80 },
-    ],
-  },
-  {
-    title: 'Linguagens Backend',
-    items: [{ name: 'C#', level: 50 }],
-  },
-];
-
-const qualifications = [
-  {
-    title: 'Técnico em Desenvolvimento de Sistemas + Ensino Médio Completo',
-    period: 'SESI-SENAI — Finalizado',
-  },
-  {
-    title: 'Programa Jovem Tech',
-    period: 'Inovase — Em andamento',
-    detail: 'Módulos de T.I, Empreendedorismo e Certificação de Programador Júnior.',
-    link: 'edital_programa_jovem_tech_FluxoContínuo_2025.pdf',
-  },
-  {
-    title: 'Engenharia de Software / Ciência da Computação',
-    period: 'Ensino Superior — Cursando',
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function SkillsAndCertifications() {
+  const { t } = useTranslation();
+
+  const skillGroups = [
+    {
+      title: t('skills.webDev'),
+      items: [
+        { name: 'HTML', level: 90 },
+        { name: 'CSS', level: 70 },
+        { name: 'JavaScript', level: 70 },
+      ],
+    },
+    {
+      title: t('skills.dataAnalyst'),
+      items: [
+        { name: 'SQL', level: 75 },
+        { name: t('skills.systemsModeling'), level: 80 },
+      ],
+    },
+    {
+      title: 'Backend Languages',
+      items: [{ name: 'C#', level: 50 }],
+    },
+  ];
+
+  const qualifications = [
+    {
+      title: t('qualifications.techDegree'),
+      period: t('qualifications.techStatus'),
+    },
+    {
+      title: t('qualifications.jovemTech'),
+      period: t('qualifications.jovemTechStatus'),
+      detail: t('qualifications.jovemTechStatus'),
+      link: 'edital_programa_jovem_tech_FluxoContínuo_2025.pdf',
+    },
+    {
+      title: t('qualifications.education'),
+      period: 'Ensino Superior — Cursando',
+    },
+  ];
+
   return (
     <section id="skills-qualifications" className="section bg-light skills-section zoom-75">
       <div className="container skills-inner">
-        <h2 className="section-title">Habilidades & Qualificações</h2>
-        <p className="section-subtitle">Meu nível técnico e jornada de aprendizado</p>
+        <h2 className="section-title">{t('skills.title')}</h2>
+        <p className="section-subtitle">{t('skills.subtitle')}</p>
 
         <div className="side-by-side-grid">
           <div className="column-left">
             <h3 className="column-title">
-              <i className="fas fa-code"></i> Habilidades Técnicas
+              <i className="fas fa-code"></i> {t('skills.technicalTitle')}
             </h3>
 
             <div className="skills-stack">
@@ -72,7 +76,7 @@ export default function SkillsAndCertifications() {
 
           <div className="column-right">
             <h3 className="column-title">
-              <i className="fas fa-graduation-cap"></i> Qualificações & Cursos
+              <i className="fas fa-graduation-cap"></i> {t('skills.qualificationsTitle')}
             </h3>
 
             <div className="education-card">
@@ -89,7 +93,7 @@ export default function SkillsAndCertifications() {
                         rel="noopener noreferrer"
                         className="edital-link"
                       >
-                        Ver Edital
+                        {t('qualifications.noticeLink')}
                       </a>
                     ) : null}
                   </div>

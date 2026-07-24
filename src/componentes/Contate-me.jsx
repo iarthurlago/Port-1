@@ -1,36 +1,40 @@
-const contactCards = [
-  {
-    title: 'Email',
-    value: 'iarthur.almeida@gmail.com',
-    href: 'mailto:iarthur.almeida@gmail.com',
-    label: 'Enviar mensagem',
-    icon: 'fas fa-envelope',
-    iconType: 'fas',
-  },
-  {
-    title: 'WhatsApp',
-    value: '+55 (79) 98857-1019',
-    href: 'https://wa.link/dpscdw',
-    label: 'Enviar mensagem',
-    icon: 'fab fa-whatsapp',
-    iconType: 'fab',
-  },
-  {
-    title: 'LinkedIn',
-    value: 'ivan-arthur',
-    href: 'https://www.linkedin.com/in/iarthurlago-23b7603a1',
-    label: 'Conectar',
-    icon: 'fab fa-linkedin',
-    iconType: 'fab',
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function ContateMe() {
+  const { t } = useTranslation();
+
+  const contactCards = [
+    {
+      title: t('contact.emailLabel'),
+      value: 'iarthur.almeida@gmail.com',
+      href: 'mailto:iarthur.almeida@gmail.com',
+      label: t('contact.sendMsg'),
+      icon: 'fas fa-envelope',
+      iconType: 'fas',
+    },
+    {
+      title: t('contact.whatsappLabel'),
+      value: '+55 (79) 98857-1019',
+      href: 'https://wa.link/dpscdw',
+      label: t('contact.sendMsg'),
+      icon: 'fab fa-whatsapp',
+      iconType: 'fab',
+    },
+    {
+      title: t('contact.linkedinLabel'),
+      value: 'ivan-arthur',
+      href: 'https://www.linkedin.com/in/iarthurlago-23b7603a1',
+      label: t('contact.connect'),
+      icon: 'fab fa-linkedin',
+      iconType: 'fab',
+    },
+  ];
+
   return (
     <section id="contact" className="section bg-light">
       <div className="container">
-        <h2 className="section-title">Contate-me</h2>
-        <p className="section-subtitle">Entre em contato para oportunidades</p>
+        <h2 className="section-title">{t('contact.title')}</h2>
+        <p className="section-subtitle">{t('contact.subtitle')}</p>
 
         <div className="contact-container">
           <div className="contact-info">

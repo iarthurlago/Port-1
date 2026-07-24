@@ -1,14 +1,17 @@
 import { useEffect, useState } from 'react';
+import LanguageToggle from './LanguageToggle';
+import { useTranslation } from 'react-i18next';
 
 const navItems = [
-  { href: '#hero', label: 'Início' },
-  { href: '#skills-qualifications', label: 'Habilidades & Cursos' },
-  { href: '#projects', label: 'Projetos' },
-  { href: '#contact', label: 'Contato' },
+  { href: '#hero', labelKey: 'nav.home' },
+  { href: '#skills-qualifications', labelKey: 'nav.skills' },
+  { href: '#projects', labelKey: 'nav.projects' },
+  { href: '#contact', labelKey: 'nav.contact' },
 ];
 
 export default function Header() {
   const [zoom75, setZoom75] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const root = document.documentElement;
@@ -25,11 +28,12 @@ export default function Header() {
         <ul className="nav-menu">
           {navItems.map((item) => (
             <li key={item.href}>
-              <a href={item.href}>{item.label}</a>
+              <a href={item.href}>{t(item.labelKey)}</a>
             </li>
           ))}
         </ul>
 
+        <LanguageToggle />
        
       </div>
     </nav>
