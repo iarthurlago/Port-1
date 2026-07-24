@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "I am Ivan Arthur",
+    "subtitle": "17 years old | Dev",
+    "role": "Programming Student",
+    "description": "Below is a selection of my personal projects, developed with dedication and commitment. I hope you find them valuable and well-crafted.",
+    "contactBtn": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "My Introduction",
+    "p1": "I am studying Software Engineering at Uninter, along with other courses like JovemTech.",
+    "p2": "Currently, I am attending the Jovem Tech program, offered by Inovase, focusing on IT modules and entrepreneurship with a Junior Programmer certification.",
+    "p3": "I am eager to apply and expand my knowledge in this constantly evolving field, with a special focus on web development and systems analysis."
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My technical level",
+    "webDev": "Web Developer",
+    "dataAnalyst": "Data Analyst",
+    "systemsModeling": "Systems Modeling",
+    "languages": "Languages"
+  ,
+    "technicalTitle": "Technical Skills",
+    "qualificationsTitle": "Qualifications & Courses"
+  },
+  "projects": {
+    "title": "Projects",
+    "calculatorTitle": "Calculator",
+    "calculatorDesc": "CSS-styled calculator built with JavaScript and marked up in HTML.",
+    "newProjectsTitle": "New Projects in Development",
+    "newProjectsDesc": "Currently focused on creating smart tools and modern interfaces. Soon, this space will be filled with the results of hard work and coding."
+  },
+  "qualifications": {
+    "title": "Qualifications",
+    "subtitle": "My personal journey",
+    "education": "Education",
+    "techDegree": "Systems Development Technician + High School Diploma",
+    "techStatus": "SESI-SENAI - Completed",
+    "jovemTech": "Jovem Tech Program",
+    "jovemTechStatus": "Inovase - In progress",
+    "noticeLink": "Notice"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Get in touch for opportunities",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "linkedinLabel": "LinkedIn",
+    "sendMsg": "Send message",
+    "connect": "Connect",
+    "form": {
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "subjectPlaceholder": "Subject",
+      "msgPlaceholder": "Your message",
+      "submitBtn": "Send Message"
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Ivan Arthur. All rights reserved."
+  }
+  ,
+  "nav": {
+    "home": "Home",
+    "skills": "Skills & Qualifications",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}

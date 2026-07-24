@@ -1,8 +1,9 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import SkillsAndCertifications from './components/SkillsAndCertifications';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Header from './componentes/Header';
+import Hero from './componentes/Hero';
+import SkillsAndCertifications from './componentes/SkillsAndCertifications';
+import Projects from './componentes/Project';
+import ContateMe from './componentes/Contate-me';
+import Footer from './componentes/Footer';
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Hero />
       <SkillsAndCertifications />
       <Projects />
+      <ContateMe />
       <Footer />
     </main>
   );
 }
 
-export default App
+export default App;

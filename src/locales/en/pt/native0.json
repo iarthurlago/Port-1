@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "Eu sou Ivan Arthur",
+    "subtitle": "17 anos | Dev",
+    "role": "Estudante de Programação",
+    "description": "Apresento a seguir uma seleção dos meus projetos pessoais, desenvolvidos com dedicação e empenho. Espero que os considere valiosos e bem elaborados.",
+    "contactBtn": "Meu Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Minha Introdução",
+    "p1": "Estou cursando Engenharia de Software na Uninter, somado a outros cursos como o JovemTech.",
+    "p2": "Atualmente, estou cursando o programa Jovem Tech, Programa oferecido pela empresa Inovase, focado em Modulos de T.i e empreendedorismo com certificação de Programador Junior.",
+    "p3": "Estou ansioso para aplicar e expandir meus conhecimentos nesta área em constante evolução, com foco especial em desenvolvimento web e análise de sistemas."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Meu nível técnico",
+    "webDev": "Desenvolvedor Web",
+    "dataAnalyst": "Analista de Informações",
+    "systemsModeling": "Modelagem de Sistemas",
+    "languages": "Linguagens"
+  },
+  "contact": {
+    "title": "Contate-me",
+    "subtitle": "Entre em contato para oportunidades",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "linkedinLabel": "LinkedIn",
+    "sendMsg": "Enviar mensagem",
+    "connect": "Conectar",
+    "form": {
+      "namePlaceholder": "Seu nome",
+      "emailPlaceholder": "Seu email",
+      "subjectPlaceholder": "Assunto",
+      "msgPlaceholder": "Sua mensagem",
+      "submitBtn": "Enviar Mensagem"
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Ivan Arthur. Todos os direitos reservados."
+  }
+}
