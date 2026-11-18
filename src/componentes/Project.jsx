@@ -59,7 +59,7 @@ export default function Projects() {
                     <figcaption>{t('projects.certificateCaption')}</figcaption>
                   </figure>
                 ) : project.video ? (
-                  <video className="project-video" controls preload="metadata" playsInline aria-label={t('projects.videoLabel', { name: t(`projects.${project.key}Title`) })}>
+                  <video className="project-video" controls autoPlay muted loop preload="auto" playsInline aria-label={t('projects.videoLabel', { name: t(`projects.${project.key}Title`) })}>
                     <source src={project.video} type="video/mp4" />
                     {t('projects.videoFallback')}
                   </video>
