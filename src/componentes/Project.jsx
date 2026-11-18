@@ -15,7 +15,7 @@ const projects = [
     icon: 'fa-fire',
     repository: 'https://github.com/iarthurlago/Flame-LabV0',
     stack: ['React', 'TypeScript', 'Vite', 'SVG'],
-    video: '/videos/flame-lab.mp4',
+    video: '/videos/flame-labEdit.mp4',
     demo: 'https://projectflamelab.vercel.app/',
   },
   {
