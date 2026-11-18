@@ -1,4 +1,4 @@
-import profileImage from '../assets/Codando.png';
+import profileImage from '../assets/FormCvEu.jpeg';
 import instagramIcon from '../assets/instagram.png';
 import whatsappIcon from '../assets/whatsapp.png';
 import { useTranslation } from 'react-i18next';

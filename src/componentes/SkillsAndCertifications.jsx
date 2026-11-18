@@ -17,11 +17,16 @@ export default function SkillsAndCertifications() {
       items: [
         { name: 'SQL', level: 75 },
         { name: t('skills.systemsModeling'), level: 80 },
+        
       ],
     },
     {
       title: 'Backend Languages',
-      items: [{ name: 'C#', level: 50 }],
+      items: [
+        { name: 'JS', level: 80}, 
+        {name: 'TypeScript', level: 60}, 
+        { name: 'C#', level: 50 } 
+      ],
     },
   ];
 
@@ -33,8 +38,6 @@ export default function SkillsAndCertifications() {
     {
       title: t('qualifications.jovemTech'),
       period: t('qualifications.jovemTechStatus'),
-      detail: t('qualifications.jovemTechStatus'),
-      link: 'edital_programa_jovem_tech_FluxoContínuo_2025.pdf',
     },
     {
       title: t('qualifications.education'),
@@ -85,17 +88,6 @@ export default function SkillsAndCertifications() {
                   <div className="timeline-item" key={item.title}>
                     <h4>{item.title}</h4>
                     <p className="timeline-text">{item.period}</p>
-                    {item.detail ? <p className="sub-detail">{item.detail}</p> : null}
-                    {item.link ? (
-                      <a
-                        href={item.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="edital-link"
-                      >
-                        {t('qualifications.noticeLink')}
-                      </a>
-                    ) : null}
                   </div>
                 ))}
               </div>

@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Eu sou Ivan Arthur",
-    "subtitle": "17 anos | Dev",
+    "subtitle": "18 anos | Dev",
     "role": "Estudante de Programação",
     "description": "A seguir uma seleção dos meus projetos pessoais, desenvolvidos com dedicação e empenho. Espero que ache-os valiosos e bem-feitos.",
     "contactBtn": "Meu Contato"
@@ -26,10 +26,32 @@
   },
   "projects": {
     "title": "Projetos",
-    "calculatorTitle": "Calculadora",
-    "calculatorDesc": "Calculadora estilizada em CSS construída com JavaScript e estruturada em HTML.",
-    "newProjectsTitle": "Novos Projetos em Desenvolvimento",
-    "newProjectsDesc": "Atualmente focado na criação de ferramentas inteligentes e interfaces modernas. Em breve, este espaço estará cheio dos resultados do muito trabalho e código."
+    "penguinsTitle": "Pinguins na Lua — Flame in Freefall",
+    "penguinsDesc": "Solução desenvolvida por mim e dois colegas para o desafio Flame in Freefall do NASA Space Apps Challenge 2026. Permite buscar e comparar experimentos de combustão em microgravidade do PSI/NASA, com extração por Gemini validada contra as fontes e critérios de pontuação calculados em código.",
+    "penguinsContribution": "Minha contribuição: criação do UX, design system e identidade visual do projeto, incluindo as animações.",
+    "certificateAlt": "Certificado de participação de Ivan Arthur Lago no NASA Space Apps Challenge 2026, realizado em 14 e 15 de novembro de 2026.",
+    "certificateCaption": "NASA Space Apps Challenge · 14–15 nov. 2026 · Certificado de participação",
+    "certificateLink": "Abrir certificado de participação no NASA Space Apps Challenge 2026 em tamanho original (nova aba)",
+    "subtitle": "Uma seleção de projetos web e desktop",
+    "stackLabel": "Tecnologias utilizadas",
+    "repository": "Ver no GitHub",
+    "viewFinal": "Ver projeto final entregue à NASA",
+    "videoLabel": "Vídeo de demonstração: {{name}}",
+    "videoFallback": "Seu navegador não suporta vídeo MP4.",
+    "repositoryLabel": "Ver {{name}} no GitHub (abre em nova aba)",
+    "flameTitle": "FLAME / LAB",
+    "flameCategory": "Protótipo científico",
+    "flameFocus": "Exploração, comparação e telemetria",
+    "flameDesc": "Protótipo do desafio Flame in Freefall do NASA Space Apps Challenge 2026. Painel com dados simulados, gráficos SVG sincronizados, filtros e exportação CSV/JSON.",
+    "flameContribution": "Criei integralmente este protótipo para preparar a identidade visual, a UI/UX e o design system do projeto.",
+    "margenTitle": "Margen Joias",
+    "margenCategory": "Catálogo comercial",
+    "margenFocus": "Vitrine, galerias e consulta de peças",
+    "margenDesc": "Catálogo de joias com páginas de detalhes, galerias e consultas pelo WhatsApp. Combina HTML pré-renderizado com hidratação React e imagens WebP responsivas geradas com Sharp.",
+    "rentalsTitle": "Gestão de Locações",
+    "rentalsCategory": "Aplicação desktop",
+    "rentalsFocus": "Clientes, itens e locações",
+    "rentalsDesc": "Sistema em C# e Windows Forms com persistência SQLite e autenticação com BCrypt. Separa interface, serviços e repositórios, com permissões por papel validadas na camada de serviços."
   },
   "qualifications": {
     "title": "Qualificações",
@@ -38,8 +60,7 @@
     "techDegree": "Técnico em Desenvolvimento de Sistemas + Ensino Médio",
     "techStatus": "SESI-SENAI - Concluído",
     "jovemTech": "Programa Jovem Tech",
-    "jovemTechStatus": "Inovase - Em andamento",
-    "noticeLink": "Aviso"
+    "jovemTechStatus": "Inovase - Concluído"
   },
   "contact": {
     "title": "Contate-me",
