@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+html { min-width: 320px; background: #777978; }
+body { min-width: 320px; min-height: 100vh; margin: 0; color: var(--color-ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+button, input { font: inherit; }
+button { color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 2px solid #dce6ff; outline-offset: 3px; }
+button:disabled { cursor: default; }
+::selection { background: rgba(193, 207, 255, .35); }
+@media (hover: hover) and (pointer: fine) { body, button, input { cursor: none; } }
+.custom-cursor { position: fixed; z-index: var(--z-cursor); left: var(--cursor-x, -40px); top: var(--cursor-y, -40px); width: 23px; height: 23px; border: 1px solid rgba(255,255,255,.92); background: rgba(255,255,255,.16); border-radius: 50%; box-shadow: 0 0 0 4px rgba(255,255,255,.09), 0 0 20px rgba(255,255,255,.34); backdrop-filter: blur(5px); pointer-events: none; opacity: 0; transform: translate(-50%, -50%) scale(.7); transition: opacity var(--duration-fast), width var(--duration-fast), height var(--duration-fast), transform var(--duration-fast), background var(--duration-fast); }
+.custom-cursor.is-visible { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+.custom-cursor.is-active { width: 37px; height: 37px; background: rgba(255,255,255,.27); }
+@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) { .custom-cursor { display: none; } body, button, input { cursor: auto; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; } }
